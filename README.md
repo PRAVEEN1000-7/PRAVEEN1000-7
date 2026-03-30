@@ -141,9 +141,6 @@ me.say_hi()
 
 ## 📊 GitHub Statistics
 
-> ⚠️ **Replace `YOUR-VERCEL-URL` with your own deployed instance.**
-> Self-host guide: [github-readme-stats docs](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own)
-
 <p align="center">
   <img height="180em" src="https://YOUR-VERCEL-URL.vercel.app/api?username=PRAVEEN1000-7&show_icons=true&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=06b6d4&text_color=c9d1d9&bg_color=0d1117&hide_border=false&count_private=true" />
   <img height="180em" src="https://YOUR-VERCEL-URL.vercel.app/api/top-langs/?username=PRAVEEN1000-7&layout=compact&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=06b6d4&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
@@ -203,38 +200,6 @@ me.say_hi()
 <p align="center">
   <img src="https://raw.githubusercontent.com/PRAVEEN1000-7/PRAVEEN1000-7/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 </p>
-
-<details>
-<summary>⚙️ Snake Animation Setup Guide</summary>
-
-Create `.github/workflows/snake.yml` in your profile repo with:
-
-```yaml
-name: Generate Snake
-on:
-  schedule: [{cron: "0 0 * * *"}]
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then: **Settings → Actions → General → Workflow permissions → Read and write → Save**, then run the action once manually.
-
-</details>
 
 ---
 
