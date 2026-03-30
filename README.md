@@ -139,15 +139,6 @@ me.say_hi()
 
 ---
 
-## 📊 GitHub Statistics
-
-<p align="center">
-  <img height="180em" src="https://YOUR-VERCEL-URL.vercel.app/api?username=PRAVEEN1000-7&show_icons=true&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=06b6d4&text_color=c9d1d9&bg_color=0d1117&hide_border=false&count_private=true" />
-  <img height="180em" src="https://YOUR-VERCEL-URL.vercel.app/api/top-langs/?username=PRAVEEN1000-7&layout=compact&theme=tokyonight&border_color=a855f7&title_color=a855f7&icon_color=06b6d4&text_color=c9d1d9&bg_color=0d1117&hide_border=false" />
-</p>
-
----
-
 ## 🔥 GitHub Streak
 
 <p align="center">
