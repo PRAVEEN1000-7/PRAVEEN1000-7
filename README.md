@@ -145,15 +145,6 @@ me.say_hi()
   <img src="https://streak-stats.demolab.com/?user=PRAVEEN1000-7&theme=tokyonight&border=a855f7&ring=a855f7&fire=06b6d4&currStreakLabel=a855f7&sideLabels=06b6d4&background=0d1117" alt="GitHub Streak"/>
 </p>
 
----
-
-## 🏅 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=PRAVEEN1000-7&theme=tokyonight&no-frame=true&no-bg=false&margin-w=6&column=6" />
-</p>
-
----
 
 ## 🎓 Certifications
 
